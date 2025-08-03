@@ -35,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         ></script>
       </head>
       <body>
+{/* @ts-ignore */}
         <amp-auto-ads
           type="adsense"
           data-ad-client="ca-pub-1325267672936174"
