@@ -124,12 +124,6 @@ export default function Home() {
     return cart.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
   };
 
-           const getOriginalPrice = (currentPrice: string): string => {
-  const priceNum = parseFloat(currentPrice.replace('$', ''));
-  const originalPrice = (priceNum * (3 + Math.random() * 2)).toFixed(2);
-  return `$${originalPrice}`;
-};
-
   const handleProductClick = (productName: string, affiliateLink: string) => {
     setLastClickedProduct(productName);
     localStorage.setItem('lastClickedProduct', productName);
