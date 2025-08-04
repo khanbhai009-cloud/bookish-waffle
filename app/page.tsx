@@ -79,26 +79,26 @@ export default function Home() {
 
   // Product data with categories
   const fashionProducts = [
-    { id: 1, name: 'Vintage Band Tees', price: '$29.99', image: 'https://envs.sh/nf.jpg/IMG2025080223.jpg', affiliate: 'https://bitli.in/1S4kh1u', category: 'tops' },
-    { id: 2, name: 'Faux Leather Pants', price: '$89.99', image: 'https://envs.sh/nO.jpg/IMG20250802322.jpg', affiliate: 'https://bitli.in/2SCvOYj', category: 'bottoms' },
-    { id: 3, name: 'Y2K Graphic Tees', price: '$34.99', image: 'https://envs.sh/ny.jpg/IMG20250802322.jpg', affiliate: 'https://bitli.in/Goq5eTD', category: 'tops' },
-    { id: 4, name: 'Oversized Blazer', price: '$129.99', image: 'https://envs.sh/nH.jpg/IMG20250802456.jpg', affiliate: 'https://bitli.in/4cmL4uw', category: 'outerwear' },
+    { id: 1, name: 'Vintage Band Tees', price: '$2.99', image: 'https://envs.sh/nf.jpg/IMG2025080223.jpg', affiliate: 'https://bitli.in/1S4kh1u', category: 'tops' },
+    { id: 2, name: 'Faux Leather Pants', price: '$8.99', image: 'https://envs.sh/nO.jpg/IMG20250802322.jpg', affiliate: 'https://bitli.in/2SCvOYj', category: 'bottoms' },
+    { id: 3, name: 'Y2K Graphic Tees', price: '$3', image: 'https://envs.sh/ny.jpg/IMG20250802322.jpg', affiliate: 'https://bitli.in/Goq5eTD', category: 'tops' },
+    { id: 4, name: 'Oversized Blazer', price: '$6.5', image: 'https://envs.sh/nH.jpg/IMG20250802456.jpg', affiliate: 'https://bitli.in/4cmL4uw', category: 'outerwear' },
     { id: 5, name: 'Biker Shorts', price: '$24.99', image: 'https://envs.sh/ng.jpg/IMG20250802640.jpg', affiliate: 'https://bitli.in/mF3KwXK', category: 'bottoms' },
-    { id: 6, name: 'Chunky Dad Sneakers', price: '$149.99', image: 'https://readdy.ai/api/search-image?query=trendy%20chunky%20dad%20sneakers%20white%20leather%20urban%20streetwear%20fashion%20Gen%20Z%20style%20clean%20white%20background%20product%20photography%20professional%20lighting&width=400&height=400&seq=sneakers001&orientation=squarish', affiliate: 'https://bitli.in/xxJwRYC', category: 'shoes' },
-    { id: 7, name: 'Oversized Hoodies', price: '$69.99', image: 'https://envs.sh/na.jpg/IMG20250802250.jpg', affiliate: 'https://bitli.in/wZioAac', category: 'tops' },
-    { id: 8, name: 'Sequined Mini Dress', price: '$159.99', image: 'https://envs.sh/nm.jpg/IMG2025080295.jpg', affiliate: 'https://bitli.in/oSls67D', category: 'dresses' },
-    { id: 9, name: 'Knee High Boots', price: '$199.99', image: 'https://envs.sh/nM.jpg/IMG20250802941.jpg', affiliate: 'https://bitli.in/bxvT2ce', category: 'shoes' },
-    { id: 10, name: 'Fabric Paints', price: '$19.99', image: 'https://readdy.ai/api/search-image?query=colorful%20fabric%20paints%20tubes%20art%20supplies%20creative%20DIY%20fashion%20customization%20tools%20bright%20colors%20white%20background%20product%20photography&width=400&height=400&seq=paints001&orientation=squarish', affiliate: 'https://bitli.in/c3anXUi', category: 'accessories' },
-    { id: 11, name: 'Distressed Jeans', price: '$79.99', image: 'https://envs.sh/nN.jpg/IMG20250802339.jpg', affiliate: 'https://bitli.in/iYVtQyi', category: 'bottoms' }
+    { id: 6, name: 'Chunky Dad Sneakers', price: '$1.99', image: 'https://readdy.ai/api/search-image?query=trendy%20chunky%20dad%20sneakers%20white%20leather%20urban%20streetwear%20fashion%20Gen%20Z%20style%20clean%20white%20background%20product%20photography%20professional%20lighting&width=400&height=400&seq=sneakers001&orientation=squarish', affiliate: 'https://bitli.in/xxJwRYC', category: 'shoes' },
+    { id: 7, name: 'Oversized Hoodies', price: '$6.99', image: 'https://envs.sh/na.jpg/IMG20250802250.jpg', affiliate: 'https://bitli.in/wZioAac', category: 'tops' },
+    { id: 8, name: 'Sequined Mini Dress', price: '$7.99', image: 'https://envs.sh/nm.jpg/IMG2025080295.jpg', affiliate: 'https://bitli.in/oSls67D', category: 'dresses' },
+    { id: 9, name: 'Knee High Boots', price: '$1.99', image: 'https://envs.sh/nM.jpg/IMG20250802941.jpg', affiliate: 'https://bitli.in/bxvT2ce', category: 'shoes' },
+    { id: 10, name: 'Fabric Paints', price: '$8.99', image: 'https://readdy.ai/api/search-image?query=colorful%20fabric%20paints%20tubes%20art%20supplies%20creative%20DIY%20fashion%20customization%20tools%20bright%20colors%20white%20background%20product%20photography&width=400&height=400&seq=paints001&orientation=squarish', affiliate: 'https://bitli.in/c3anXUi', category: 'accessories' },
+    { id: 11, name: 'Distressed Jeans', price: '$7.99', image: 'https://envs.sh/nN.jpg/IMG20250802339.jpg', affiliate: 'https://bitli.in/iYVtQyi', category: 'bottoms' }
   ];
 
   const hairProducts = [
-    { id: 12, name: 'Curl Defining Cream', price: '$19.99', image: 'https://envs.sh/n-.jpg/IMG2025080216.jpg', affiliate: 'https://bitli.in/5z3NLoZ', category: 'styling' },
-    { id: 13, name: 'Shine Spray', price: '$16.99', image: 'https://envs.sh/nX.jpg/IMG20250802339.jpg', affiliate: 'https://bitli.in/HoXbKv0', category: 'styling' },
-    { id: 14, name: 'Hair Elastic Bands', price: '$9.99', image: 'https://envs.sh/nV.jpg/IMG20250802478.jpg', affiliate: 'https://bitli.in/Y4cbxN2', category: 'accessories' },
-    { id: 15, name: 'Detangling Spray', price: '$22.99', image: 'https://envs.sh/n6.jpg/IMG20250802538.jpg', affiliate: 'https://bitli.in/z2fmw1i', category: 'care' },
-    { id: 16, name: 'Styling Cream', price: '$25.99', image: 'https://envs.sh/nv.jpg/IMG20250802186.jpg', affiliate: 'https://bitli.in/F6NotdR', category: 'styling' },
-    { id: 17, name: 'Hair Glitter Spray', price: '$18.99', image: 'https://envs.sh/nx.jpg/IMG20250802827.jpg', affiliate: 'https://bitli.in/ZHsyKvV', category: 'styling' }
+    { id: 12, name: 'Curl Defining Cream', price: '$1.99', image: 'https://envs.sh/n-.jpg/IMG2025080216.jpg', affiliate: 'https://bitli.in/5z3NLoZ', category: 'styling' },
+    { id: 13, name: 'Shine Spray', price: '$1.99', image: 'https://envs.sh/nX.jpg/IMG20250802339.jpg', affiliate: 'https://bitli.in/HoXbKv0', category: 'styling' },
+    { id: 14, name: 'Hair Elastic Bands', price: '$0.99', image: 'https://envs.sh/nV.jpg/IMG20250802478.jpg', affiliate: 'https://bitli.in/Y4cbxN2', category: 'accessories' },
+    { id: 15, name: 'Detangling Spray', price: '$2.99', image: 'https://envs.sh/n6.jpg/IMG20250802538.jpg', affiliate: 'https://bitli.in/z2fmw1i', category: 'care' },
+    { id: 16, name: 'Styling Cream', price: '$2.99', image: 'https://envs.sh/nv.jpg/IMG20250802186.jpg', affiliate: 'https://bitli.in/F6NotdR', category: 'styling' },
+    { id: 17, name: 'Hair Glitter Spray', price: '$1.99', image: 'https://envs.sh/nx.jpg/IMG20250802827.jpg', affiliate: 'https://bitli.in/ZHsyKvV', category: 'styling' }
   ];
 
   // Filter products
